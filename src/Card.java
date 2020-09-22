@@ -38,7 +38,7 @@ public class Card
     }
 
     // 出牌阶段 出牌
-    public void removeCard(String card)
+    public void removeCardByName(String card)
     {
         this.cards.remove(card);
     }
@@ -80,18 +80,29 @@ public class Card
         return true;
     }
 
+    // 通过 Index 得到 String 元素
+    public String getByIndex(int index)
+    {
+        return this.cards.get(index);
+    }
+
+    public void removeCardByIndex(int index)
+    {
+        this.cards.remove(index);
+    }
+
+    public boolean checkIfHasThisCard(String card)
+    {
+        return this.cards.contains(card);
+    }
+
 
     public static void main(String[] args) {
         Card card = new Card();
         card.addCard("A");
         card.addCard("A");
         card.addCard("3");
-
-        ArrayList<String> check = new ArrayList<>();
-        check.add("A");
-        check.add("A");
-        check.add("A");
-        card.checkSendCardsInHands(check);
-
+        System.out.println(card.checkIfHasThisCard("A"));
+        System.out.println(card.checkIfHasThisCard("4"));
     }
 }

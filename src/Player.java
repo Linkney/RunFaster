@@ -9,6 +9,8 @@ public class Player
     //手牌
     private Card card = new Card();
 
+    public Player() {}
+
     public void getCard(String card)
     {
         this.card.addCard(card);
@@ -24,7 +26,17 @@ public class Player
         this.card.sortCards();
     }
 
-    public void showUpCards(String[] upCards)
+    // todo 这是怎么回事小老弟
+    public String getAndRemoveLastCard_ai()
+    {
+        String re = this.card.getByIndex(this.card.getCardsSize()-1);
+        this.card.removeCardByIndex(this.card.getCardsSize()-1);
+        return re;
+    }
+
+
+    // 工具方法 将 String[] 展示出来而已
+    private void showUpCards(String[] upCards)
     {
         for (String item: upCards)
         {
@@ -66,14 +78,28 @@ public class Player
     {
         for (String card: cards)
         {
-            this.card.removeCard(card);
+            this.card.removeCardByName(card);
         }
     }
 
+    // 返回手牌数
     public int getCardsSize()
     {
         return this.card.getCardsSize();
     }
+
+    // 检测是否含有某张牌
+    public boolean checkIFHasThisCard(String card)
+    {
+        return this.card.checkIfHasThisCard(card);
+    }
+
+    // 出某张牌   todo 这个函数动作之前得 先 check 是否存在
+    public void removeCard(String card)
+    {
+        this.card.removeCardByName(card);
+    }
+
 
     public String[] string2StringArray(String strIn)
     {
@@ -111,8 +137,6 @@ public class Player
         return true;        // 有错误 得重输
     }
 
-
-
     // 行动： 出牌 或者 Pass    参数：  上家的牌 ["pass"]  或者 such as ["A", "A"]
     // 已知上家出的牌 现在你行动 返回你出的牌
     public String[] play(String[] upCards)
@@ -148,6 +172,7 @@ public class Player
 
         return re;
     }
+
 
 
     public static void main(String[] args) {

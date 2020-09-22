@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c512f94-7a43-462e-a158-62dd8dc18118" name="Default" comment="" />
+    <list default="true" id="2c512f94-7a43-462e-a158-62dd8dc18118" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -69,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Card.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
@@ -125,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/Card.java" />
         <option value="$PROJECT_DIR$/src/Poker.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -376,12 +379,12 @@
       <workItem from="1600246116042" duration="1754000" />
       <workItem from="1600325758095" duration="6452000" />
       <workItem from="1600332885319" duration="1577000" />
-      <workItem from="1600672261722" duration="28762000" />
+      <workItem from="1600672261722" duration="29051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50788000" />
+    <option name="totallyTimeSpent" value="51077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1035" y="41" width="858" height="984" extended-state="0" />
@@ -400,7 +403,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21852732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21852732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -751,13 +754,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="313">
+          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,18 +788,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Card.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="390">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
           </folding>
         </state>
       </provider>
